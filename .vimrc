@@ -12,7 +12,9 @@ let g:ycm_extra_conf_globlist = ['~/Development/MyCodes/*']
 Plug 'kien/ctrlp.vim'
 Plug 'rizzatti/dash.vim'
 Plug 'airblade/vim-gitgutter'
+" delimitMate
 Plug 'Raimondi/delimitMate'
+imap <C-G>f <Plug>delimitMateS-Tab
 Plug 'Keithbsmiley/swift.vim'
 Plug 'yonchu/accelerated-smooth-scroll'
 Plug 'fatih/vim-go'
@@ -21,11 +23,18 @@ Plug 'fatih/vim-go'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'digitaltoad/vim-jade'
 Plug 'groenewege/vim-less'
+Plug 'moll/vim-node'
 
 " Themes
 Plug 'w0ng/vim-hybrid'
 Plug 'fatih/molokai'
 "Plug 'chriskempson/base16-vim' " I modified it...
+
+" Expand Region
+Plug 'terryma/vim-expand-region'
+
+" Commentary
+Plug 'tpope/vim-commentary'
 
 " Airline
 Plug 'bling/vim-airline'
